@@ -1,0 +1,8 @@
+table, th, td, tr{
+    border: 1px solid black ;
+    align-items: center;
+}
+
+nav{
+    margin: 15px 15px;
+}
