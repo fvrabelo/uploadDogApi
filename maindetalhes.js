@@ -12,11 +12,9 @@ function exec(){
         document.querySelector("#life_span").innerHTML = dados.life_span
         document.querySelector("#temperament").innerHTML = dados.temperament;
         document.querySelector("#origin").innerHTML = dados.origin;
+        document.querySelector("#image").innerHTML = dados.reference_image_id;
+        console.log(dados);
     })
-    const dataImg = fetch(`https://api.thedogapi.com/v1/images/search?breed_id=`+id).then((data) => data.json());
-    document.querySelector("#image").setAttribute('src', dataImg)
-    console.log(dataImg);
+ 
 }
 exec()
-
-
