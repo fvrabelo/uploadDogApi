@@ -6,3 +6,13 @@ table, th, td, tr{
 nav{
     margin: 15px 15px;
 }
+
+p{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: 2px 0px;
+}
+
+a{
+    margin: 15px 0px;
+}
