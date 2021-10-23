@@ -3,6 +3,13 @@ table, th, td, tr{
     align-items: center;
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 nav{
     margin: 15px 15px;
 }
@@ -15,4 +22,13 @@ p{
 
 a{
     margin: 15px 0px;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+#span-index{
+    font-weight: bold;
 }
