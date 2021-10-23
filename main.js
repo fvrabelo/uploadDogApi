@@ -22,6 +22,7 @@ function fazGet(url){
     tdNome.innerHTML = usuario.name;
     tdLife.innerHTML = usuario.life_span;
     tdMais.innerHTML = 'Info';
+    tdMais.className = 'css-info';
     
     
     linha.appendChild(tdNome)

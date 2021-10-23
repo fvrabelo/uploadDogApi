@@ -1,5 +1,5 @@
-table, th, td, tr{
-    border: 1px solid black ;
+th, td, tr{
+    border: 2px solid black ;
     align-items: center;
 }
 
@@ -32,3 +32,11 @@ img{
 #span-index{
     font-weight: bold;
 }
+
+.css-info{
+    font-weight: bold;
+}
+.css-info:hover{
+    color: red;
+}
+
